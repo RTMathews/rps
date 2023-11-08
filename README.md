@@ -1,2 +1,2 @@
 # rps
-rock paper scissors
+rock paper scissors with UI
