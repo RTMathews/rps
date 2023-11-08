@@ -4,7 +4,6 @@ function getComputerChoice()
     const choice = options[Math.floor(Math.random() * options.length)];
 
     return choice;
-    console.log(choice);
 }
 
 function getPlayerChoice()
@@ -13,7 +12,6 @@ function getPlayerChoice()
     if (choice == 'ROCK' || choice == 'PAPER' || choice == 'SCISSORS')
     {
         return choice;
-        console.log(choice);
     }
 }
 
@@ -48,3 +46,4 @@ function playRound(playerSelection, computerSelection)
         return 'You Lose! Paper beats Rock.';
     }
 }
+
