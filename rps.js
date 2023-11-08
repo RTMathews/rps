@@ -1,3 +1,5 @@
+const rockbutton = document.querySelector(rockbutton);
+
 function getComputerChoice()
 {
     const options = ['ROCK', 'PAPER', 'SCISSORS'];
