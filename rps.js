@@ -1,6 +1,7 @@
 const rockButton = document.querySelector('.rockbutton');
 const paperButton = document.querySelector('.paperbutton');
 const scissorsButton = document.querySelector('.scissorsbutton');
+const outcomeDiv = document.querySelectory('.outcome');
 
 function getComputerChoice()
 {
@@ -53,6 +54,6 @@ function playRound(playerSelection, computerSelection)
 
 rockButton.addEventListener('click', () => {
     const computerSelection = getComputerChoice()
-    const playerSelection = getPlayerChoice()
+    const playerSelection = 'ROCK'
     playRound(playerSelection, computerSelection)
 })
