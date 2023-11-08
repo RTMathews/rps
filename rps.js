@@ -1,4 +1,4 @@
-const rockbutton = document.querySelector(rockbutton);
+const rockButton = document.querySelector(".rockbutton");
 
 function getComputerChoice()
 {
