@@ -51,8 +51,8 @@ function playRound(playerSelection, computerSelection)
     }
 }
 
-rockButton.addEventListener('click' () => {
+rockButton.addEventListener('click', () => {
     const computerSelection = getComputerChoice()
-    const playerSelection = 'ROCK'
+    const playerSelection = getPlayerChoice()
     playRound(playerSelection, computerSelection)
 })
