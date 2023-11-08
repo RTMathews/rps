@@ -1,5 +1,6 @@
 const rockButton = document.querySelector('.rockbutton');
 const paperButton = document.querySelector('.paperbutton');
+const scissorsButton = document.querySelector('.scissorsbutton');
 
 function getComputerChoice()
 {
