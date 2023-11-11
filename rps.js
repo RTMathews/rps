@@ -71,8 +71,8 @@ paperButton.addEventListener('click', () => {
     playRound(playerSelection, computerSelection)
 })
 
-rockButton.addEventListener('click', () => {
+scissorsButton.addEventListener('click', () => {
     const computerSelection = getComputerChoice()
-    const playerSelection = 'ROCK'
+    const playerSelection = 'SCISSORS'
     playRound(playerSelection, computerSelection)
 })
