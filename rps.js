@@ -81,6 +81,7 @@ const checkWinner = (playerScore, computerScore) => {
         const h2 = document.createElement('h2')
         h2.classList.add('won')
         h2.innerText = 'You have won the game!'
+        outcomeDiv.append(h2)
     }
     else if (computerScore === 5)
     {
