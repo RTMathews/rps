@@ -26,6 +26,7 @@ function playRound(playerSelection, computerSelection)
     {
         const p = document.createElement('p')
         p.innerText = `Tied! You both picked ${playerSelection}`
+        outcomeDiv.appendChild('p')
     }
     else if (playerSelection === 'ROCK' && computerSelection === 'SCISSORS')
     {
