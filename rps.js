@@ -24,11 +24,13 @@ function playRound(playerSelection, computerSelection)
 {
     if (playerSelection === computerSelection)
     {
-        return 'Tie!';
+        const p = document.createElement('p')
+        p.innerText = `Tied! You both picked ${playerSelection}`
     }
     else if (playerSelection === 'ROCK' && computerSelection === 'SCISSORS')
     {
-        return 'You Win! Rock beats Scissors.';
+        const p = document.createElement('p')
+        p.innerText = 'You Win! Rock beats Scissors.'
     }
     else if (playerSelection === 'SCISSORS' && computerSelection === 'PAPER')
     {
