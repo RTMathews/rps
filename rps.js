@@ -94,6 +94,7 @@ rockButton.addEventListener('click', () => {
     const computerSelection = getComputerChoice()
     const playerSelection = 'ROCK'
     playRound(playerSelection, computerSelection)
+    checkWinner(playerScore, computerScore)
 })
 
 paperButton.addEventListener('click', () => {
