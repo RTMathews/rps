@@ -64,3 +64,15 @@ rockButton.addEventListener('click', () => {
     const playerSelection = 'ROCK'
     playRound(playerSelection, computerSelection)
 })
+
+rockButton.addEventListener('click', () => {
+    const computerSelection = getComputerChoice()
+    const playerSelection = 'ROCK'
+    playRound(playerSelection, computerSelection)
+})
+
+rockButton.addEventListener('click', () => {
+    const computerSelection = getComputerChoice()
+    const playerSelection = 'ROCK'
+    playRound(playerSelection, computerSelection)
+})
