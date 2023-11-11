@@ -33,36 +33,42 @@ function playRound(playerSelection, computerSelection)
     }
     else if (playerSelection === 'ROCK' && computerSelection === 'SCISSORS')
     {
+        playerScore++
         const p = document.createElement('p')
         p.innerText = 'You Win! Rock beats Scissors.'
         outcomeDiv.appendChild(p)
     }
     else if (playerSelection === 'SCISSORS' && computerSelection === 'PAPER')
     {
+        playerScore++
         const p = document.createElement('p')
         p.innerText = 'You Win! Scissors beats Paper.'
         outcomeDiv.appendChild(p)
     }
     else if (playerSelection === 'PAPER' && computerSelection === 'ROCK')
     {
+        playerScore++
         const p = document.createElement('p')
         p.innerText = 'You Win! Paper beats Rock.'
         outcomeDiv.appendChild(p)
     }
     else if (computerSelection === 'ROCK' && playerSelection === 'SCISSORS')
     {
+        computerScore++
         const p = document.createElement('p')
         p.innerText = 'You Lose! Rock beats Scissors.'
         outcomeDiv.appendChild(p)
     }
     else if (computerSelection === 'SCISSORS' && playerSelection === 'PAPER')
     {
+        computerScore++
         const p = document.createElement('p')
         p.innerText = 'You Lose! Scissors beats Paper.'
         outcomeDiv.appendChild(p)
     }
     else if (computerSelection === 'PAPER' && playerSelection === 'ROCK')
     {
+        computerScore++
         const p = document.createElement('p')
         p.innerText = 'You Lose! Paper beats Rock.'
         outcomeDiv.appendChild(p)
