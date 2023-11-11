@@ -101,6 +101,7 @@ paperButton.addEventListener('click', () => {
     const computerSelection = getComputerChoice()
     const playerSelection = 'PAPER'
     playRound(playerSelection, computerSelection)
+    checkWinner(playerScore, computerScore)
 })
 
 scissorsButton.addEventListener('click', () => {
