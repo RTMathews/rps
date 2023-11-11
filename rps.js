@@ -54,7 +54,8 @@ function playRound(playerSelection, computerSelection)
     }
     else if (computerSelection === 'PAPER' && playerSelection === 'ROCK')
     {
-        return 'You Lose! Paper beats Rock.';
+        const p = document.createElement('p')
+        p.innerText = 'You Lose! Paper beats Rock.'
     }
 }
 
