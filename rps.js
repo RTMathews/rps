@@ -88,6 +88,7 @@ const checkWinner = (playerScore, computerScore) => {
         const h2 = document.createElement('h2')
         h2.classList.add('lost')
         h2.innerText = 'You have lost the game!'
+        outcomeDiv.append(h2)
     }
 }
 
