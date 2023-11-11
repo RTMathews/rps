@@ -108,4 +108,5 @@ scissorsButton.addEventListener('click', () => {
     const computerSelection = getComputerChoice()
     const playerSelection = 'SCISSORS'
     playRound(playerSelection, computerSelection)
+    checkWinner(playerSCore, computerScore)
 })
