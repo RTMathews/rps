@@ -95,6 +95,7 @@ const checkWinner = (playerScore, computerScore) => {
 rockButton.addEventListener('click', () => {
     const computerSelection = getComputerChoice()
     const playerSelection = 'ROCK'
+    let p = document.createElement('p')
     outcomeDiv.appendChild(p)
     playRound(playerSelection, computerSelection)
     checkWinner(playerScore, computerScore)
