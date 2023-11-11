@@ -75,7 +75,13 @@ function playRound(playerSelection, computerSelection)
     }
 }
 
-const checkWinner = ()
+const checkWinner = (playerScore, computerScore) => {
+    if (playerScore === 5)
+    {
+        const h2 = document.createElement('h2')
+        h2.classList.add('You Win the Game!')
+    }
+}
 
 rockButton.addEventListener('click', () => {
     const computerSelection = getComputerChoice()
