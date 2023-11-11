@@ -79,13 +79,13 @@ const checkWinner = (playerScore, computerScore) => {
     if (playerScore === 5)
     {
         const h2 = document.createElement('h2')
-        h2.classList.add('You Win the Game!')
+        h2.classList.add('won')
         h2.innerText = 'You have won the game!'
     }
     else if (computerScore === 5)
     {
         const h2 = document.createElement('h2')
-        h2.classList.add('You Lose the Game!')
+        h2.classList.add('lost')
         h2.innerText = 'You have lost the game!'
     }
 }
@@ -108,5 +108,5 @@ scissorsButton.addEventListener('click', () => {
     const computerSelection = getComputerChoice()
     const playerSelection = 'SCISSORS'
     playRound(playerSelection, computerSelection)
-    checkWinner(playerSCore, computerScore)
+    checkWinner(playerScore, computerScore)
 })
